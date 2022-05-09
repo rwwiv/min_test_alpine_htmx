@@ -16,4 +16,6 @@ To reproduce error, do the following
 
 5. Press the browser's back button
 
-6. Observe the console warnings + errors in your browser's console
+6. Observe the console warnings + errors in your browser's console (see below for example output)
+
+    <img width="410" alt="errors" src="https://user-images.githubusercontent.com/4155337/167425650-40983393-c834-4458-bde5-298fab174c9e.png">
