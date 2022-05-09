@@ -1,0 +1,10 @@
+{% extends "index.html" %}
+{% block body %}
+  <h2>this is page 3</h2>
+  <div id="book-list" x-data="booklist">
+    <template x-for="book in books">
+      <div x-text="book"></div>
+    </template>
+  </div>
+  <a hx-boost="true" href="{{ url_for('page_two') }}" hx-push-url="true">to page two</a>
+{% endblock body %}
